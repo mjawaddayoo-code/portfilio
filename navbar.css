@@ -1,0 +1,40 @@
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   
+}
+
+/* Navbar Container */
+.navbar {
+  justify-content:flex-end;
+  font-weight: bold;
+  display: flex;
+  gap: 30px;
+  /* background: #1a1a1a; */
+  padding: 20px 40px;
+  border-radius: 12px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Nav Items */
+.nav-item {
+  justify-content:flex-end;
+  color: #eee;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  /* background: linear-gradient(to bottom, #2c2c2c, #1a1a1a); */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+}
+
+/* Hover Effect */
+.nav-item:hover {
+  transform: translateY(-6px) rotateX(8deg);
+  box-shadow: 0 8px 20px rgba(19, 15, 15, 0.1);
+  /* background: linear-gradient(to bottom, #3a3a3a, #1f1f1f); */
+}
