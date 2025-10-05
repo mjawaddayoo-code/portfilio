@@ -6,7 +6,17 @@
   box-sizing: border-box;
    
 }
-
+/* Logo Section */
+.logo {
+  color: rgb(6, 172, 201);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+}
 /* Navbar Container */
 .navbar {
   justify-content:flex-end;
@@ -16,7 +26,7 @@
   /* background: #1a1a1a; */
   padding: 20px 40px;
   border-radius: 12px;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+  /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4); */
 }
 
 /* Nav Items */
@@ -37,4 +47,31 @@
   transform: translateY(-6px) rotateX(8deg);
   box-shadow: 0 8px 20px rgba(19, 15, 15, 0.1);
   /* background: linear-gradient(to bottom, #3a3a3a, #1f1f1f); */
+}
+/* Mobile Navbar */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+    
+    .nav-item {
+        font-size: 16px;
+        padding: 10px 20px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        gap: 8px;
+        padding: 10px;
+    }
+    
+    .nav-item {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
 }
