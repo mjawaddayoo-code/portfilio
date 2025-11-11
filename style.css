@@ -1,11 +1,16 @@
 body{ 
     /* background-color: #96A78D; */
-    background-image:url("abstract-digital-grid-black-background.jpg") ;
+    /* background-image:url("abstract-digital-grid-black-background.jpg") ; */
     /* background-color: #96A78D; */
     font-family: 'Segoe UI', sans-serif;
     color: #F0F0F0;
     
-}   
+} 
+.back-img{
+  background-image:url("abstract-digital-grid-black-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}  
 /* Page Animisiton */
  @keyframes appear{
   from{
@@ -112,9 +117,13 @@ body{
 
 }
 .About{
+  /* background-color: #76c7e7; */
+  background-image: url("secdimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   text-align: center;
-  margin: 100px;
+  padding: 100px;
 
 }
 .paragraf{

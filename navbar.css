@@ -23,10 +23,12 @@
   font-weight: bold;
   display: flex;
   gap: 30px;
+  position: fixed;
+  top: 0;
   /* background: #1a1a1a; */
   padding: 20px 40px;
   border-radius: 12px;
-  /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4); */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
 }
 
 /* Nav Items */
